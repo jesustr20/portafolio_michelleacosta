@@ -278,7 +278,7 @@ p {
   display: none;
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
   .banner {
     width: auto;
     height: 400px;
