@@ -385,11 +385,11 @@ p {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
   .banner {
     width: auto;
-    height: 600px;
-    max-width: 950px;
+    height: 400px;
+    max-width: 350px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -410,7 +410,7 @@ p {
     left: 50%;
     top: 5%;
     transform: translate(-50%, -50%);
-    width: 550px;
+    width: 350px;
   }
 
   .navbar__links {
