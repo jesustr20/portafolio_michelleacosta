@@ -208,6 +208,11 @@ li {
 
 .card {
   padding-bottom: 155px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3pt;
 }
 
 .imagen_circular {
@@ -377,5 +382,45 @@ p {
   .footer {
     background-color: #e4d6ce;
     width: 600px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner {
+    width: auto;
+    height: 600px;
+    max-width: 950px;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner 20s infinite;
+  }
+
+  .footer {
+    background-color: #e4d6ce;
+    width: 600px;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+  }
+
+  .navbar__links {
+    position: fixed;
+    clip-path: circle(0 at center);
+
+    padding-left: 370px;
+  }
+
+  .container-footer {
+    background: #e4d6ce;
   }
 }
