@@ -132,7 +132,7 @@ textarea:hover {
   border: 1px solid #301818;
 }
 
-.text_coolumn2 input {
+.text_coolumn2 .input_c {
   margin-top: 10px;
   background: none;
   color: #301818;
@@ -143,11 +143,15 @@ textarea:hover {
   text-align: center;
 }
 
-.text_coolumn2 input:focus {
+.text_coolumn2 .input_c:focus {
   outline: none;
 }
 
-.text_coolumn2 input:hover {
+.text_coolumn2 .input_c:hover {
   border-bottom: none;
   border: none;
+}
+
+.text_coolumn2 .input_c {
+  cursor: pointer;
 }
