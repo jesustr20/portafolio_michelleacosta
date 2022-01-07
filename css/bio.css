@@ -141,6 +141,7 @@ textarea:hover {
   display: block;
   border: none;
   text-align: center;
+  width: 220%;
 }
 
 .text_coolumn2 .input_c:focus {
@@ -154,4 +155,16 @@ textarea:hover {
 
 .text_coolumn2 .input_c {
   cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  width: auto;
+  width: 220%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #301818;
 }
