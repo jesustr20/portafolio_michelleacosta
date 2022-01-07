@@ -27,14 +27,14 @@
 /* Create two equal columns that floats next to each other */
 .column1 {
   float: left;
-  width: 40%;
+  width: 35%;
   padding: 10px;
   height: 210px; /* Should be removed. Only for demonstration */
 }
 
 .column2 {
   float: left;
-  width: 60%;
+  width: 65%;
   padding: 10px;
   height: auto; /* Should be removed. Only for demonstration */
 }
@@ -62,8 +62,9 @@
 
 .container__column2 {
   display: grid;
-  grid-template-columns: minmax(30%, 50%) 2fr;
-  gap: 10px;
+  grid-template-columns: minmax(30%, 45%) 2fr;
+  grid-column-gap: 10ox;
+  gap: 20px;
 }
 .text_coolumn2 {
   font-size: 15px;
@@ -83,4 +84,70 @@
   letter-spacing: -0px;
   font-size: 14px;
   text-align: left;
+}
+
+/*INPUTS*/
+
+input {
+  margin-top: 10px;
+  background: none;
+  color: #301818;
+  font-size: 15px;
+  padding-bottom: 10px 10px 10px 10px;
+  display: block;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+input:focus {
+  outline: none;
+  color: #301818;
+}
+
+input:hover {
+  border-bottom: 1px solid #301818;
+  border: 1px solid #301818;
+  font-size: 20px;
+}
+
+textarea {
+  margin-top: 10px;
+  background: none;
+  color: #301818;
+  font-size: 15px;
+  padding-bottom: 10px 10px 10px 10px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+textarea:focus {
+  outline: none;
+  color: #301818;
+}
+
+textarea:hover {
+  border-bottom: 1px solid #301818;
+  border: 1px solid #301818;
+}
+
+.text_coolumn2 input {
+  margin-top: 10px;
+  background: none;
+  color: #301818;
+  font-size: 15px;
+  padding-bottom: 10px 10px 10px 10px;
+  display: block;
+  border: none;
+  text-align: center;
+}
+
+.text_coolumn2 input:focus {
+  outline: none;
+}
+
+.text_coolumn2 input:hover {
+  border-bottom: none;
+  border: none;
 }
