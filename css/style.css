@@ -121,7 +121,7 @@ li {
 .banner {
   width: auto;
   height: 970px;
-  min-width: 600px;
+  /*min-width: 600px;*/
   /*border: 3px solid red;*/
   margin: auto;
   background-size: 100% 100%;
@@ -217,7 +217,7 @@ li {
 
 .imagen_circular {
   max-height: 438px;
-  min-width: 438px;
+  /*min-width: 438px;*/
   border-radius: 50%;
 }
 
@@ -293,7 +293,8 @@ p {
   .banner {
     width: auto;
     height: 800px;
-    min-width: 600px;
+    /*min-width: 600px;*/
+    width: 1800px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -330,13 +331,19 @@ p {
     flex-direction: column;
     width: 100%;
   }
+
+  .imagen_circular {
+    max-height: 538px;
+    min-width: 538px;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 710px) {
   .banner {
     width: auto;
     height: 600px;
-    min-width: 600px;
+    /*min-width: 600px;*/
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -373,7 +380,7 @@ p {
   .banner {
     width: auto;
     height: 600px;
-    max-width: 950px;
+    width: 700px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -381,15 +388,45 @@ p {
 
   .footer {
     background-color: #e4d6ce;
-    width: 600px;
+    width: 700px;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+  .navbar__links {
+    position: fixed;
+    clip-path: circle(0 at center);
+
+    padding-left: 410px;
+  }
+
+  .navbar__links .nav__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    right: 0;
+  }
+
+  .menu__input:checked + .navbar__links {
+    clip-path: circle(100% at center);
+  }
+
+  .dropdown-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 315px) {
   .banner {
     width: auto;
     height: 400px;
-    max-width: 350px;
+    width: 510px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
