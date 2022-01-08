@@ -334,7 +334,7 @@ p {
 
   .imagen_circular {
     max-height: 538px;
-    min-width: 538px;
+    width: 538px;
     border-radius: 50%;
   }
 }
