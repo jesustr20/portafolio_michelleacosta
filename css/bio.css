@@ -173,8 +173,8 @@ textarea {
   /*banner*/
   .img_article {
     margin: auto;
-    width: 580px;
-    height: 380px;
+    width: 480px;
+    height: 280px;
     object-fit: cover;
   }
 }
