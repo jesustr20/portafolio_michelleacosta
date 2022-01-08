@@ -258,7 +258,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7rem;
+  gap: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   letter-spacing: 1pt;
@@ -446,7 +446,7 @@ p {
   .banner {
     width: auto;
     height: 300px;
-    width: 410px;
+    width: 340px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
