@@ -400,6 +400,22 @@ p {
     padding-left: 170px;
   }
 
+  .navbar__links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px -2px 1px #000;
+    padding-top: 16px;
+    background-color: gray;
+    opacity: 0.7;
+  }
+
   .navbar__links .nav__menu {
     display: flex;
     flex-direction: column;
