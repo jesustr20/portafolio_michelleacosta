@@ -388,7 +388,7 @@ p {
 
   .footer {
     background-color: #e4d6ce;
-    width: 395px;
+    width: auto;
   }
 
   .checkbtn {
