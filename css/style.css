@@ -333,8 +333,8 @@ p {
   }
 
   .imagen_circular {
-    max-height: 538px;
-    max-width: 50px;
+    /*max-height: 538px;*/
+    /*max-width: 50px;*/
     border-radius: 50%;
   }
 }
