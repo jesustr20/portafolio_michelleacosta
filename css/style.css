@@ -429,6 +429,17 @@ p {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3pt;
   }
+
+  .container__section {
+    padding-top: 70px;
+    padding-left: 40px;
+    margin: auto;
+    /*display: flex;*/
+    padding-right: 160px;
+    max-width: 1550px;
+    min-width: 10px;
+    height: 100%;
+  }
 }
 
 @media (max-width: 315px) {
