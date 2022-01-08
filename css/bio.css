@@ -168,3 +168,13 @@ textarea {
   color: #fff;
   border-bottom: 1px solid #301818;
 }
+
+@media (max-width: 585px) {
+  /*banner*/
+  .img_article {
+    margin: auto;
+    width: 580px;
+    height: 380px;
+    object-fit: cover;
+  }
+}
