@@ -198,7 +198,7 @@ textarea {
   }
 
   .container__title_bio {
-    padding-top: 220px;
+    padding-top: 100px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -250,5 +250,15 @@ textarea {
     border: none;
     text-align: center;
     width: 100%;
+  }
+
+  .separacion_title {
+    margin-bottom: 110px;
+    width: 45%;
+  }
+
+  .container_article h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
   }
 }
