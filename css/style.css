@@ -215,6 +215,10 @@ li {
   letter-spacing: 3pt;
 }
 
+.card p {
+  color: #a98d7c;
+}
+
 .imagen_circular {
   max-height: 438px;
   /*min-width: 438px;*/
@@ -223,6 +227,7 @@ li {
 
 .text {
   padding-top: 20px;
+  color: #414141;
 }
 
 h1,
@@ -467,6 +472,15 @@ p {
   }
   .text {
     color: #414141;
+  }
+
+  .card {
+    padding-bottom: 70px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
   }
 
   .card p {
