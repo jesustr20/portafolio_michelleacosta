@@ -71,7 +71,7 @@
 .container__column2 {
   display: grid;
   grid-template-columns: minmax(30%, 45%) 2fr;
-  grid-column-gap: 10ox;
+  grid-column-gap: 10px;
   gap: 20px;
 }
 .text_coolumn2 {
@@ -219,5 +219,12 @@ textarea {
     float: left;
     height: auto;
     width: 100%;
+  }
+
+  .container__column2 {
+    display: grid;
+    grid-template-columns: minmax(100%, 0%);
+    grid-column-gap: 10px;
+    gap: 20px;
   }
 }
