@@ -361,14 +361,14 @@ p {
     left: 50%;
     top: 5%;
     transform: translate(-50%, -50%);
-    max-width: 250px;
+    max-width: 350px;
   }
 
   .navbar__links {
     position: fixed;
     clip-path: circle(0 at center);
 
-    padding-left: 390px;
+    padding-left: 150px;
   }
 
   .container-footer {
@@ -398,7 +398,7 @@ p {
     position: fixed;
     clip-path: circle(0 at center);
 
-    padding-left: 80px;
+    padding-left: 170px;
   }
 
   .navbar__links .nav__menu {
