@@ -334,7 +334,7 @@ p {
 
   .imagen_circular {
     max-height: 538px;
-    width: 538px;
+    max-width: 50px;
     border-radius: 50%;
   }
 }
@@ -361,7 +361,7 @@ p {
     left: 50%;
     top: 5%;
     transform: translate(-50%, -50%);
-    width: 550px;
+    max-width: 250px;
   }
 
   .navbar__links {
@@ -379,8 +379,8 @@ p {
 @media (max-width: 585px) {
   .banner {
     width: auto;
-    height: 600px;
-    width: 700px;
+    height: 400px;
+    width: 510px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -419,6 +419,15 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .info h1 {
+    padding-top: 120px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 70px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3pt;
   }
 }
 
