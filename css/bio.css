@@ -173,8 +173,18 @@ textarea {
   /*banner*/
   .img_article {
     margin: auto;
-    width: 480px;
+    width: 380px;
     height: 280px;
     object-fit: cover;
+  }
+  .container__title_bio {
+    padding-top: 220px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+  }
+  .titulo_bio {
+    text-align: center;
   }
 }
