@@ -227,4 +227,28 @@ textarea {
     grid-column-gap: 10px;
     gap: 20px;
   }
+
+  textarea {
+    resize: none;
+    width: auto;
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #301818;
+  }
+
+  .text_coolumn2 .input_c {
+    margin-top: 10px;
+    background: none;
+    color: #301818;
+    font-size: 15px;
+    padding-bottom: 10px 10px 10px 10px;
+    display: block;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
 }
