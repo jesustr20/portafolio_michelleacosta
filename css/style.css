@@ -380,7 +380,7 @@ p {
   .banner {
     width: auto;
     height: 300px;
-    width: 390px;
+    width: auto;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
