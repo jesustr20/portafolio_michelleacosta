@@ -380,7 +380,7 @@ p {
   .banner {
     width: auto;
     height: 300px;
-    width: 340px;
+    width: 390px;
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -398,7 +398,7 @@ p {
     position: fixed;
     clip-path: circle(0 at center);
 
-    padding-left: 410px;
+    padding-left: 80px;
   }
 
   .navbar__links .nav__menu {
