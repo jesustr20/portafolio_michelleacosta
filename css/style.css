@@ -449,6 +449,13 @@ p {
     min-width: 10px;
     height: 100%;
   }
+  .text {
+    color: #414141;
+  }
+
+  .card p {
+    color: #a98d7c;
+  }
 }
 
 @media (max-width: 315px) {
