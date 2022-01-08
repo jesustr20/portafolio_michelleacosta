@@ -56,11 +56,10 @@ p {
   text-align: center;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 585px) {
   /*titulo*/
   .container__title {
-    width: 650px;
-    padding-top: 220px;
+    padding-top: 100px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-transform: uppercase;
