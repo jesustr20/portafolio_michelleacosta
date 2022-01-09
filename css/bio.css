@@ -40,6 +40,12 @@
   height: 210px; /* Should be removed. Only for demonstration */
 }
 
+.column_img {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 450px;
+}
 .column2 {
   float: left;
   width: 65%;
