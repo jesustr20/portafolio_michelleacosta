@@ -53,6 +53,19 @@
   height: auto; /* Should be removed. Only for demonstration */
 }
 
+.column_text {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  height: auto;
+}
+
+.column_text .text_column {
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: -0px;
+  text-align: left;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -185,6 +198,10 @@ textarea {
 
 @media (max-width: 585px) {
   /*banner*/
+  .row_content {
+    display: flex;
+    flex-direction: row;
+  }
   .img_article {
     margin: auto;
     width: 350px;
@@ -221,17 +238,27 @@ textarea {
     height: 50px;
   }
 
+  .column_img {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 100px;
+  }
   .column2 {
     float: left;
     height: auto;
     width: 100%;
   }
-
   .container__column2 {
     display: grid;
     grid-template-columns: minmax(100%, 0%);
     grid-column-gap: 10px;
     gap: 20px;
+  }
+
+  .column_text {
+    float: left;
+    width: 65%;
   }
 
   textarea {
