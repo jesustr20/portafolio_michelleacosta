@@ -298,6 +298,7 @@ p {
   }
 }
 
+/*Modificar todo*/
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
