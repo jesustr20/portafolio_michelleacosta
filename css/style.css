@@ -4,9 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@400;500&family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("portafolio.css");
-@import url("marca.css"); /*Marca*/
-@import url("musica.css");
-@import url("retrato.css");
+@import url("multiples_exposiciones.css");
+@import url("retratos.css");
+@import url("paisajes.css");
 @import url("trabajo.css");
 @import url("bio.css");
 
@@ -126,28 +126,21 @@ li {
   margin: auto;
   background-size: 100% 100%;
   animation: banner 20s infinite;
+  animation-direction: alternate;
 }
 
 @keyframes banner {
   0%,
-  16% {
-    background-image: url(/img/banner_1.jpg);
+  30% {
+    background-image: url(/img/BANNER/banner_1.jpg);
   }
-  20%,
-  36% {
-    background-image: url(/img/banner_2.jpg);
+  35%,
+  65% {
+    background-image: url(/img/BANNER/banner_2.jpg);
   }
-  40%,
-  56% {
-    background-image: url(/img/banner_3.jpg);
-  }
-  60%,
-  76% {
-    background-image: url(/img/banner_4.jpg);
-  }
-  80%,
+  70%,
   100% {
-    background-image: url(/img/banner_5.jpg);
+    background-image: url(/img/BANNER/banner_3.jpg);
   }
 }
 
@@ -306,6 +299,7 @@ p {
   }
 }
 
+/*Modificar todo*/
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
@@ -390,7 +384,8 @@ p {
     background-size: 100% 100%;
     animation: banner 20s infinite;
   }
-
+  /*cambio*/
+  /*probar*/
   .footer {
     background-color: #e4d6ce;
     width: auto;
