@@ -48,13 +48,13 @@ p {
 }
 
 .imagen__multiple {
-  height: 338px;
-  width: 538px;
+  height: 300px;
+  width: 500px;
+  object-fit: contain;
   /*max-height: 538px;
   min-width: 738px;*/
 }
 
-/*object-fit: cover;*/
 
 @media (max-width: 585px) {
   .container__section-multiples {
