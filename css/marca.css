@@ -1,9 +1,9 @@
-.description__paisaje {
+.description__mp {
   letter-spacing: 1pt;
   text-transform: none;
 }
 
-.container__section-paisaje {
+.container__section-mp {
   padding-left: 100px;
   padding-top: 70px;
   padding-bottom: 50px;
@@ -14,7 +14,7 @@
   height: 100%;
 }
 
-.container__section-position-paisaje {
+.container__section-position-mp {
   display: flex;
   gap: 1rem;
   align-items: stretch;
@@ -23,7 +23,7 @@
   row-gap: 30px;
 }
 
-.position-paisaje {
+.position-mp {
   margin-top: 32px;
   display: flex;
   align-items: stretch;
@@ -32,22 +32,28 @@
   row-gap: 12px;
 }
 
-.paisaje__card {
+.mp__card {
   padding-bottom: 20px;
   padding-left: 20px;
+  
 }
 
-.imagen__paisaje {
+.imagen__mp {
   height: 338px;
   width: 538px;
+  object-fit: cover;
   /*max-height: 538px;
   min-width: 738px;*/
+}
+
+.mp__card a img:hover {
+  transform: scale(1);
 }
 
 /*object-fit: cover;*/
 
 @media (max-width: 585px) {
-  .container__section-paisaje {
+  .container__section-mp {
     padding-left: 20px;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -59,7 +65,7 @@
     width: auto;
   }
 
-  .imagen__paisaje {
+  .imagen__mp {
     /*height: 338px;
     width: 538px;
     object-fit: contain;*/
@@ -68,7 +74,7 @@
     object-fit: cover;
   }
 
-  .paisaje__card {
+  .mp__card {
     padding-bottom: 0px;
     padding-left: 0px;
   }
