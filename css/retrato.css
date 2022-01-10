@@ -1,10 +1,9 @@
-.description__beach {
+.description__retratos {
   letter-spacing: 1pt;
   text-transform: none;
 }
 
-.container__section-beach {
-  padding-left: 100px;
+.container__section-retratos {
   padding-top: 70px;
   padding-bottom: 50px;
   margin: auto;
@@ -14,7 +13,7 @@
   height: 100%;
 }
 
-.container__section-position-beach {
+.container__section-position-retratos {
   display: flex;
   gap: 1rem;
   align-items: stretch;
@@ -23,7 +22,7 @@
   row-gap: 30px;
 }
 
-.position-beach {
+.position-retratos {
   margin-top: 32px;
   display: flex;
   align-items: stretch;
@@ -32,19 +31,21 @@
   row-gap: 12px;
 }
 
-.beach__card {
+.retratos__card {
   padding-bottom: 20px;
   padding-left: 20px;
+  max-width: 1560px;
+  margin: auto;
 }
 
-.imagen__beach {
+.imagen__retratos {
   height: 338px;
   width: 538px;
   object-fit: cover;
 }
 
 @media (max-width: 585px) {
-  .container__section-beach {
+  .container__section-retratos {
     padding-left: 20px;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -56,7 +57,7 @@
     width: auto;
   }
 
-  .imagen__beach {
+  .imagen__retratos {
     /*height: 338px;
     width: 538px;
     object-fit: cover;*/
@@ -65,7 +66,7 @@
     object-fit: cover;
   }
 
-  .beach__card {
+  .retratos__card {
     padding-bottom: 0px;
     padding-left: 0px;
   }
