@@ -4,14 +4,21 @@
 }
 
 .container__section-paisaje {
-  padding-left: 100px;
+  /*padding-left: 100px;*/
   padding-top: 70px;
   padding-bottom: 50px;
-  margin: auto;
+  /*margin: auto;*/
   display: flex;
   max-width: 1550px;
   min-width: 10px;
   height: 100%;
+  margin-left: 20%;
+}
+
+h1,
+p {
+  text-align: center;
+  margin-left: 5%;
 }
 
 .container__section-position-paisaje {
