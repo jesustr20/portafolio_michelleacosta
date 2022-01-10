@@ -126,20 +126,21 @@ li {
   margin: auto;
   background-size: 100% 100%;
   animation: banner 20s infinite;
+  animation-direction: alternate;
 }
 
 @keyframes banner {
   0%,
-  16% {
-    background-image: url(/img/banner_1.jpg);
+  30% {
+    background-image: url(/img/BANNER/banner_1.jpg);
   }
-  20%,
-  36% {
-    background-image: url(/img/banner_2.jpg);
+  35%,
+  65% {
+    background-image: url(/img/BANNER/banner_2.jpg);
   }
-  40%,
-  56% {
-    background-image: url(/img/banner_3.jpg);
+  70%,
+  100% {
+    background-image: url(/img/BANNER/banner_3.jpg);
   }
 }
 
