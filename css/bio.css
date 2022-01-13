@@ -14,7 +14,7 @@
 .img_article {
   margin: auto;
   width: 980px;
-  height: 454px;
+  max-height: 454px;
 }
 
 .container__section_bio {
@@ -195,6 +195,32 @@ textarea {
   color: #fff;
   border-bottom: 1px solid #301818;
 }
+
+@media (max-width: 984px) {
+  .img_article {
+    margin: auto;
+    width: 980px;
+    height: auto;
+  }
+
+  .container__section_bio {
+    padding-top: 70px;
+    padding-left: 40px;
+    margin: auto;
+    /* display: flex; */
+    padding-right: 40px;
+    max-width: 1300px;
+    min-width: 10px;
+    height: 100%;
+}
+
+/*@media (max-width: 710px) {*/
+/*  .img_article {*/
+/*    margin: auto;*/
+/*    width: 980px;*/
+/*    max-height: 454px;*/
+/*  }*/
+/*}*/
 
 @media (max-width: 585px) {
   /*banner*/
