@@ -288,9 +288,9 @@ p {
   /*Banner*/
   .banner {
     width: auto;
-    height: 1200px;
+    height: 700px;
     /*min-width: 600px;*/
-    width: 1800px;
+    /*width: 1800px;*/
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
@@ -344,6 +344,14 @@ p {
     margin: auto;
     background-size: 100% 100%;
     animation: banner 20s infinite;
+  }
+  .info h1 {
+    padding-top: 120px;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 150px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3pt;
   }
 }
 
