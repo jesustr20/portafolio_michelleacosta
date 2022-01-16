@@ -216,6 +216,15 @@ li {
   border-radius: 50%;
 }
 
+.img_acercar {
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+
+.img_acercar:hover {
+  transform: scale(1.2);
+}
+
 .text {
   padding-top: 20px;
   color: #414141;
